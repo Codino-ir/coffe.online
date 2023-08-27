@@ -1,0 +1,45 @@
+/* font-family */
+@font-face {
+    font-family: "vazir";
+    src: url(/assets/font/Vazir.eot) format("eot"), url(/assets/font/Vazir.ttf) format("truetype"), url(/assets/font/Vazir.woff) format("woff"), url(/assets/font/Vazir.woff2) format("woff2");
+}
+
+* {
+    font-family: 'vazir';
+}
+
+header .navbar {
+    width: 95%;
+    height: auto;
+    background-color: rgb(223, 146, 91);
+    padding: 18px;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+@keyframes bom {
+    0% {
+        transform: scale(.85);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.navbar-brand {
+    animation: bom 2s infinite;
+}
+
+/* .navbar-brand-1 {
+    font-size: 26px !important;
+    margin-left: 250px;
+    margin-right: 250px;
+} */
+.navbar-collapse {
+    transition: all ease 2s !important;
+}
