@@ -1,0 +1,9 @@
+@media screen and (max-width: 998px) {
+  .title-section-1 {
+    font-size: 3rem !important;
+  }
+  .title-section-2 {
+    margin-top: 20px !important;
+    font-size: 2rem !important;
+  }
+}
