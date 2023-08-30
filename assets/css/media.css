@@ -6,4 +6,11 @@
     margin-top: 20px !important;
     font-size: 2rem !important;
   }
+  .margin {
+    margin-top: 100px;
+    margin-bottom: 25px;
+  }
+  .title-3{
+  font-size: 2rem;
+}
 }

@@ -77,17 +77,25 @@
   padding: 5px 35px 5px 35px;
 }
 /* section-2 */
-.title-section-2{
-    font-size: 4rem;
-    margin-top: 100px;
+.title-section-2 {
+  font-size: 4rem;
+  margin-top: 100px;
 }
-.w-container{
-    max-width: 1200px;
-    margin: auto;
+.w-container {
+  max-width: 1200px;
+  margin: auto;
 }
-.card-section-2{
-    transition: all ease 0.4s;
+.card-section-2 {
+  transition: all ease 0.4s;
 }
-.card-section-2:hover{
-    transform: scale(.95);
+.card-section-2:hover {
+  transform: scale(0.95);
+}
+/* section 3 */
+.margin {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.title-3{
+  font-size: 4.5rem;
 }
